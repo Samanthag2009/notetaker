@@ -1,29 +1,17 @@
-[
-    {
-        "title": "Test Title",
-        "text": "Test text",
-        "note_id": [
-            ""
-        ]
-    },
-    {
-        "title": "title2",
-        "text": "note",
-        "note_id": "44621bc2-4a20-4d23-802d-ea71461e5b8b"
-    },
-    {
-        "title": "test2",
-        "text": "test2",
-        "note_id": "62c984a1-1743-49ff-9c8b-c7e030ffd5bc"
-    },
-    {
-        "title": "test2",
-        "text": "test2",
-        "note_id": "7ccf8d88-8617-49d2-86ec-071e906b5b52"
-    },
-    {
+{
+    "245d7748-a869-4747-afc5-9d29481ec368": {
         "title": "test5",
         "text": "test5",
-        "note_id": "7fd764c6-cc28-4f11-a4b6-06fc41012fc5"
+        "id": "245d7748-a869-4747-afc5-9d29481ec368"
+    },
+    "f50cf00c-b18a-48c2-b444-1cb92bbf4f28": {
+        "title": "test8",
+        "text": "test8",
+        "id": "f50cf00c-b18a-48c2-b444-1cb92bbf4f28"
+    },
+    "bd0d9196-4c40-47a9-83cd-cc5ba3cb3669": {
+        "title": "test9",
+        "text": "test9",
+        "id": "bd0d9196-4c40-47a9-83cd-cc5ba3cb3669"
     }
-]
+}

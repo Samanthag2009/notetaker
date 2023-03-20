@@ -41,10 +41,34 @@ const readAndAppend = (content, file) => {
         console.error(err);
       } else {
         const parsedData = JSON.parse(data);
-        parsedData.push(content);
+        // parsedData.push(content);
+        parsedData[content['id']] = content
         writeToFile(file, parsedData);
       }
     });
   };
 
-  module.exports = {readFromFile, writeToFile, readAndAppend}
+// DELETE request
+
+/**
+ *
+ * @param {string} file
+ * @param {string} id
+ */
+
+const readAndDelete = (id, file)  => {
+    console.log(id);
+    fs.readFile(file, 'utf8', (err, data) => {
+        if (err) 
+        {
+            console.error(err);
+        }else{
+            const parsedData = JSON.parse(data);
+            delete parsedData[id];
+            writeToFile(file, parsedData);
+            console.log(parsedData);
+        }
+    })
+};
+
+  module.exports = {readFromFile, writeToFile, readAndAppend, readAndDelete}
